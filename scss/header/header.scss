@@ -1,0 +1,36 @@
+.main_header {
+    background: #212529;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    height: 100px;
+
+}
+
+.title_menu {
+    font-size: 20px;
+    color: white;
+}
+
+.title_menu:hover {
+    color: #f29500;
+}
+
+nav {
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    flex: 1 1 40rem;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#logo {
+    flex: 2 1 40rem;
+}

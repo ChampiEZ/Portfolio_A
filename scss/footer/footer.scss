@@ -1,0 +1,70 @@
+footer {
+    margin-top: 480px;
+    flex-shrink: 0;
+    border-top: 1px dashed #000;
+    width: 100%;
+    background: #f1f1f1;
+    color: #333;
+}
+
+#contenu_footer {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 20px;
+    padding: 50px 0 100px;
+}
+
+.bloc {
+    width: 25%;
+    margin: 0 30px;
+}
+
+.footer_services h3,
+.footer_contact h3,
+.footer_medias h3 {
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.footer_contact p {
+    padding: 5px 0;
+}
+
+.liste_services,
+.liste_horraire,
+.liste_media {
+    list-style-type: none;
+}
+
+.liste_services li {
+    padding: 2px 0;
+}
+
+.liste_services a {
+    text-decoration: none;
+    color: #333;
+}
+
+.liste_services a:hover {
+    color: rgb(3, 3, 3);
+}
+
+.span_service {
+    color: black;
+}
+
+.span_service:hover {
+    color: red;
+}
+
+.container_media {
+    text-align: left;
+}
+
+.container_media img {
+    align-items: center;
+    padding-right: 20px;
+}
