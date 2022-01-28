@@ -7,9 +7,10 @@
   text-decoration: none;
   font-family: Verdana, Genava, Tahoma, sans-serif;
   font-family: 'Noto Sans JP', sans-serif;
-
 }
-
+html{
+  scroll-behavior: smooth;
+}
 ol, ul {
   list-style: none;
 }
@@ -180,7 +181,8 @@ header ul li a:hover{
 .contentBx p{
   margin-top: 10px;
 }
-img{
+
+.margeImg img{
   max-width: 100%;
   margin-left: 30%;
 }
@@ -246,7 +248,7 @@ img{
   width: 70%;
 }
 .skills .skills-content .right .js::before{
-  width: 30%;
+  width: 60%;
 }
 .skills .skills-content .right .php::before{
   width: 20%;
@@ -273,7 +275,7 @@ img{
 .box{
   position: relative;
   width: 300px;
-  height: 300px;
+  height: 270px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -282,7 +284,7 @@ img{
   transition: 0.5s;
   z-index: 100;
 }
-.box img{
+.box span img{
   height: 250px;
   
   /* padding: 1% 20%; */
@@ -293,12 +295,19 @@ img{
   left: 0;
   width: 100%;
   height: 100%;
-  /* padding: 10px; */
+  padding: 20px 10px;
   box-sizing: border-box;
 }
 
 .box:hover{
+  height: 350px;
+}
+
+span .box:hover{
   height: 400px;
+}
+span .box img{
+  margin-left: 16px;
 }
 
 .box .imgBx img{
@@ -387,7 +396,12 @@ footer {
   background: #f1f1f1;
   color: #333;
 }
-
+.footer_contact a{
+  color: lightseagreen;
+}
+.footer_contact a:hover{
+  text-decoration: underline;
+}
 #contenu_footer {
   width: 1200px;
   margin: 0 auto;
@@ -410,7 +424,7 @@ footer {
   padding-bottom: 20px;
 }
 
-.footer_contact p {
+.footer_contact p, .footer_contact a{
   padding: 5px 0;
 }
 

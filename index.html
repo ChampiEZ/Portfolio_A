@@ -12,9 +12,10 @@
 <body>
 
     <!-- Header -->
-    <header class="main_header">
+    <div id="header"></div>
+    <header class="main_header" id="header">
 
-        <a href="#" class="logo">Adxm_A</a>
+        <a href="#header" class="logo">Adxm_A</a>
         <div class="toggle"></div>
         <ul>
             <li><a href="#">Home</span></a></li>
@@ -43,20 +44,22 @@
             <div class="contentBx w50">
                 <h3>I'm a front Web Developer</h3><br>
                 <p>Hello ! Bienvenue sur mon <span class="letterT">Portfolio !</span><br>
-                    Je m'appelle Adam et je suis étudiant à l'école Léonard de Vinci à l'IIM.    
+                    Je m'appelle Adam et je suis étudiant à l'école Léonard de Vinci à l'IIM.
                     Je suis passionné de nouvelles technologies, de jeux vidéos, des
                     gadgets High-Tech ect.. En bref, j'aime le digital<span class="letterT"> x)</span><br>
                     Tout au long de mon Portfolio, vous allez découvrir mes projets, skills, <br>
-                hobbies ou tout simplement comment me contacter ;)</p>
+                    hobbies ou tout simplement comment me contacter ;)</p>
             </div>
-            <img src="img/photo.jpg" class="img">
+                <div class="margeImg">
+                    <img src="img/photo.jpg" class="img">
+                </div>
         </div>
     </section>
 
     <section class="services">
         <div class="heading white">
             <h2><span class="letterT">M</span>y hobbies</h2>
-            <p>Ci-dessous vous allez voir mes hobbies, ce que j'aime faire ou tout 
+            <p>Ci-dessous vous allez voir mes hobbies, ce que j'aime faire ou tout
                 simplement les meilleurs activités durant mon temps libre !
             </p>
         </div>
@@ -71,14 +74,18 @@
         </div>
 
         <!-- img2 -->
-        <div class="box">
-            <div class="imgBx">
-                <img src="img/decouvrir-le-ski-de-piste.jpg">
+        <span>
+            <div class="box">
+                    <div class="imgBx">
+                        <span>
+                            <img src="img/decouvrir-le-ski-de-piste.jpg">
+                        </span>
+                    </div>
+                    <div class="contentImg">
+                        <h2>Ski<br><span class="tltC">Pour s'échapper</span></h2>
+                    </div>
             </div>
-            <div class="contentImg">
-                <h2>Ski<br><span class="tltC">Pour s'échapper</span></h2>
-            </div>
-        </div>
+        </span>
         <!-- img3 -->
         <div class="box">
             <div class="imgBx">
@@ -123,7 +130,7 @@
                         <div class="line css"></div>
                         <div class="info">
                             <span class="infoS">JavaScript</span>
-                            <span class="infoS">30%</span>
+                            <span class="infoS">60%</span>
                         </div>
 
                         <div class="line js"></div>
@@ -143,50 +150,6 @@
             </div>
         </div>
     </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     <!-- Footer -->
     <footer>
@@ -208,12 +171,12 @@
             </div>
             <div class="bloc footer_contact">
                 <h3>Restons en contact</h3>
-                <p>55-55-55-55-55</p>
-                <p>supportclient@contact.com</p>
-                <p>6 rue de l'invention, Paris VII, 75007</p>
+                <p>07-67-77-93-50</p>
+                <p>adam.ammar@edu.devinci.fr</p>
+                <a href="Contact.html">Page Contact</a>
             </div>
             <div class="bloc footer_medias">
-                <h3>Nos Réseaux Sociaux</h3>
+                <h3>Mes Réseaux Sociaux</h3>
                 <div class="container_media">
                     <ul>
                         <li><a href="#"><img src="https://image.flaticon.com/icons/png/512/1384/1384005.png"
